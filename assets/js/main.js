@@ -1426,7 +1426,7 @@ $(document).ready(function () {
       },
     },
     function (start) {
-      // Set Check-out minDate to selected Check-in date +1 day
+      // Set Check-out minDate to selected Check-in date +255 day
       $("#check-out").daterangepicker({
         singleDatePicker: true,
         autoUpdateInput: true,
